@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int p,i=1,j;
+    while(i<=10){
+        j=1;
+        while(j<=10){
+            p = i * j;
+            printf("%d * %d = %d\n",i,j,p);
+            j++;
+        }
+        printf("#################\n");
+        i++;
+    }
+}
