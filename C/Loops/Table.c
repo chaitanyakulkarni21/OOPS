@@ -4,9 +4,13 @@ int main(){
     while(i<=10){
         j=1;
         while(j<=10){
+            if(i>5){
+                break;
+            }
             p = i * j;
             printf("%d x %d = %d\n",i,j,p);
             j++;
+            
         }
         printf("#################\n");
         i++;
