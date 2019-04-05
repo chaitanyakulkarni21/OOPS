@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(){
-    int i=2;
+    int i;
+    printf("Enter a case number :\n");
+    scanf("%d",&i);
     switch(i){
         case 1 : printf("Iam in case 1\n");
                  break;
@@ -9,5 +11,7 @@ int main(){
         case 3 : printf("Iam in case 3\n");
                  break;
         case 4 : printf("Iam in case 4\n");
+                 break;
+        default : printf("Iam in default\n");
     }
 }
