@@ -1,11 +1,15 @@
-/*Menu driven program*/
+/*Menu driven function */
 #include<stdio.h>
+void menudriven(int,int,int,int,int,int);
 int main()
 {
-	int n,num,i,f=1,flag = 0;
-	int ch;
-	printf("Choose an option\n");
-	while(ch != 0){
+	int n,num,i,f=1,flag = 0,ch;
+	menudriven(n,num,i,f,flag,ch);
+}
+void menudriven(int n,int num,int i,int f,int flag,int ch)
+{
+		printf("Choose an option\n");
+		while(ch != 0){
 	
 		printf("1. Factorial of a number\n");
 		printf("2. Odd or Even\n");
