@@ -10,6 +10,7 @@ int main()
 }
 void scope(int i)
 {
+	i=3;
 	printf("\nin function\n");
 	printf("i=%d\n",i);
 }
