@@ -4,8 +4,13 @@ void menudriven(int,int,int,int,int,int);
 int main()
 {
 	int n,num,i,f=1,flag = 0,ch;
+	
 	menudriven(n,num,i,f,flag,ch);
 }
+
+
+
+
 void menudriven(int n,int num,int i,int f,int flag,int ch)
 {
 		printf("Choose an option\n");
