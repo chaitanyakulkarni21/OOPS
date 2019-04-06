@@ -19,6 +19,6 @@ int main()
 		}
 	}
 	out:
-		printf("YIPPPPPEEEEEE!!!!!! I came out of the loops\n");
+		printf("I came out of the loops\n");
 		return 0;
 }
