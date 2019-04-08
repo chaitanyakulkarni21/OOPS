@@ -3,7 +3,7 @@ void message();
 int main()
 {
 	int a;
-	a=message();//function return type is void so cannot be assigned to a variable
+	message();//function return type is void so cannot be assigned to a variable
 }
 void message()
 {
