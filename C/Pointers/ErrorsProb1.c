@@ -1,6 +1,6 @@
 /* Errors: Problem 1 */
 #include<stdio.h>
-void pass (int,int);
+int pass (int,int);
 int main()
 {
 	int i=135,a=135,k;
@@ -8,9 +8,10 @@ int main()
 	printf("%d\n",k);
 	return 0;
 }
-void pass(int j, int b)
-int c;			//Error : c undeclared 
+int pass(int j, int b)
+			//Error : c undeclared 
 {
+	int c;
 	c = j + b;
 	return c;
 }
