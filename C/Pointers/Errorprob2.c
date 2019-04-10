@@ -1,6 +1,6 @@
 /* Error prob 2 */
 #include<stdio.h>
-void jiaayjo (int ,int)	// Error : ; needed
+void jiaayjo (int ,int);	// Error : ; needed
 int main()
 {
 	int p = 23 ,f = 24;
