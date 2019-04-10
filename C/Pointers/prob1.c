@@ -1,4 +1,5 @@
 /* Pointer exercise */
+/* Problem 1 */
 #include<stdio.h>
 void function(int,int);
 int main()
