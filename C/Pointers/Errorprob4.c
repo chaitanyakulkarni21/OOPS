@@ -4,7 +4,7 @@ void function(int *);
 int main()
 {
 	int i=35,*z;
-	z = function (&i);	// returning a value while using void
+	function (&i);	// returning a value while using void
 	printf("%d\n",z);
 	return 0;
 }
