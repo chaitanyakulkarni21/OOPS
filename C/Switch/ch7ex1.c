@@ -7,4 +7,4 @@ int main(){
         default : printf("Heart\n");
     }
     printf("I thought one wears a suite\n");
-}
+}                           
