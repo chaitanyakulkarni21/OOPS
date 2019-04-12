@@ -4,7 +4,7 @@ int main()
 {
     int sum,avg;
     SumAvg(&sum,&avg);
-    printf("Sum = %d\nAvg = %d\n");
+    printf("Sum = %d\nAvg = %d\n",sum,avg);
     return 0;
 }
 void SumAvg(int *sum, int *avg)
