@@ -12,5 +12,5 @@ int main()
 }
 void display(int *m)
 {
-  printf("%d ",m);
+  printf("%d ",*m);
 }
