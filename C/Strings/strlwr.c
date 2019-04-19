@@ -1,20 +1,20 @@
-/* String Upper case */
+/* String Lowercase */
 #include<stdio.h>
-void strlwr(char*);
+void strupr(char*);
 int main()
 {
 	char str[20];
 	printf("Enter string : \n");
 	scanf("%s",str);
-	strlwr(str);
-	printf("String Uppercase: %s\n",str);
+	strupr(str);
+	printf("String Lowercase: %s\n",str);
 	return 0;
 }
-void strlwr(char* str)
+void strupr(char* str)
 {
 	int i;
 	for(i=0;str[i]!='\0';i++)
 	{
-		str[i] = str[i] - 32;
+		str[i] = str[i] + 32;
 	}
 }
