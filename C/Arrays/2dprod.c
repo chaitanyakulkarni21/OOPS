@@ -13,7 +13,7 @@ int main()
 		printf("\nInput %d elements of first array :",r1*c1);
 		for(i=0;i<r1 ;i++)
 		{
-			for(j=0; j<c1;j++)
+			for(j=0;j<c1;j++)
 			{
 				scanf("%d",&a[i][j]);
 			}

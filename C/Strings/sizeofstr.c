@@ -3,5 +3,5 @@
 int main()
 {
 	char str[10] = "Chaitanya";	//size = 10, length + null character
-	printf("%d",sizeof(str));
+	printf("%d\n",sizeof(str));
 }

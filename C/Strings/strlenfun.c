@@ -8,5 +8,5 @@ int main()
 	printf("Enter a string:\n");
 	scanf("%s",str);
 	l= strlen(str);
-	printf("The length of the string is = %d",l);
+	printf("The length of the string is = %d\n",l);
 }
