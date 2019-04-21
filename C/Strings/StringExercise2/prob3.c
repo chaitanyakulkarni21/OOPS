@@ -6,8 +6,8 @@ int main()
     int i;
     for(i=0 ; i<=7 ; i++)
     {
-        printf("%d",*arr);
+        printf("%d ",*arr);
     }
-    arr++;  // lvalue required error
+   // arr++;  // lvalue required error
     return 0;
 }
