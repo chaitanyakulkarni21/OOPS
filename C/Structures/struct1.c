@@ -8,12 +8,12 @@ int main()
     printf("Enter name price and pages of three books\n");
     for(i=0;i<=2;i++)
     {
-        scanf("%c %f %d",&name[i],&price[i],&pages[i]);
+        scanf(" %c %f %d",&name[i],&price[i],&pages[i]);
     }
     printf("\nAnd this is what you have entered\n");
     for(i=0;i<=2;i++)
     {
-        printf("%c %f %d\n",name[i],price[i],pages[i]);
+        printf(" %c %f %d\n",name[i],price[i],pages[i]);
     }
     return 0;
 }
