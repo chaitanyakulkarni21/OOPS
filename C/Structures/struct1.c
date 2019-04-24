@@ -1,4 +1,4 @@
-/* Structure example1 */
+/* Structure example1 : Array Approach */
 #include<stdio.h>
 int main()
 {
